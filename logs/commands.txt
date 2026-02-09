@@ -1,0 +1,8 @@
+﻿# GCP Commands Executed
+## Project: playground-s-11-8b83cc00
+
+gcloud compute networks create production-vpc --subnet-mode=custom
+gcloud compute networks subnets create web-tier --network=production-vpc --region=us-central1 --range=10.0.1.0/24
+gcloud compute instances create bastion-host --zone=us-central1-a --machine-type=e2-micro --subnet=management-tier
+gcloud compute instances create web-server-1 --zone=us-central1-a --machine-type=e2-micro --subnet=web-tier
+gcloud compute instances create app-server-1 --zone=us-central1-a --machine-type=e2-micro --subnet=app-tier --no-address
