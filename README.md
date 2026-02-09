@@ -83,7 +83,7 @@
 
 ##  Author
 
-**Greg Horne**
+**Gregory B. Horne**
 - GitHub: [@gbhorne](https://github.com/gbhorne)
 
 ---
