@@ -9,7 +9,7 @@
 | Mode | Custom |
 | Region | us-central1 |
 | Routing | Regional |
-| Project | playground-s-11-8b83cc00 |
+| Project | your-project-id |
 
 Custom mode was selected over auto mode to maintain explicit control over subnet CIDR ranges, prevent unintended connectivity between tiers, and follow production network design practices.
 
